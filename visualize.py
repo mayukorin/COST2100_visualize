@@ -9,9 +9,6 @@ img_height = 32
 img_width = 32
 img_channels = 2 
 img_total = img_height*img_width*img_channels
-# network params
-residual_num = 2
-encoded_dim = 512  #compress rate=1/4->dim.=512, compress rate=1/16->dim.=128, compress rate=1/32->dim.=64, compress rate=1/64->dim.=32
 
 # Data loading
 if envir == 'indoor':
